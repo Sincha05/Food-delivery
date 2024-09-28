@@ -1,0 +1,141 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Baskerville, sans-serif;
+}
+
+body {
+  background-color: rgb(121, 193, 255)
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Navbar Styles */
+.navbar {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,59,1) 35%, rgba(0,212,255,1) 100%); 
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo h1 {
+  color: white;
+}
+
+.nav-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.nav-links a {
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.nav-links a:hover {
+  background-color: #8746b3;
+}
+
+/* Hero Section Styles */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: #fff;
+}
+
+.hero-content h2 {
+  font-size: 3em;
+  color: #333;
+}
+
+.hero-content p {
+  font-size: 1.2em;
+  color: #666;
+  margin: 20px 0;
+}
+
+.search-bar {
+  margin-top: 20px;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  background-color: #fc8019;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.hero-image img {
+  width: 500px;
+}
+
+/* Features Section Styles */
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  background-color: #fff;
+}
+
+.feature {
+  text-align: center;
+  width: 30%;
+}
+
+.feature img {
+  width: 150px;
+  height: 100px;
+  padding-bottom: 10px;
+  
+}
+
+.feature h3 {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  color: #666;
+}
+
+
+footer {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,59,1) 35%, rgba(0,212,255,1) 100%);
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+button{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,59,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+
+
